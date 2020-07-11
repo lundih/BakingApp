@@ -27,7 +27,7 @@ import com.google.android.exoplayer2.ui.PlayerView;
 import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
-import com.lundih.android.bakingapp.Step.Step;
+import com.lundih.android.bakingapp.step.Step;
 
 import java.util.List;
 import java.util.Objects;

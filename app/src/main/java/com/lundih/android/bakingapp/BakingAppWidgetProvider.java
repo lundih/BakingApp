@@ -14,10 +14,10 @@ import android.widget.RemoteViews;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.lundih.android.bakingapp.Ingredient.Ingredient;
-import com.lundih.android.bakingapp.Recipe.Recipe;
-import com.lundih.android.bakingapp.Utils.InternetCheck;
-import com.lundih.android.bakingapp.Utils.RecipeAPI;
+import com.lundih.android.bakingapp.ingredient.Ingredient;
+import com.lundih.android.bakingapp.recipe.Recipe;
+import com.lundih.android.bakingapp.utils.InternetCheck;
+import com.lundih.android.bakingapp.utils.RecipeAPI;
 
 import java.util.List;
 

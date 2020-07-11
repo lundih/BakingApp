@@ -16,10 +16,10 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.lundih.android.bakingapp.Ingredient.Ingredient;
-import com.lundih.android.bakingapp.Recipe.Recipe;
-import com.lundih.android.bakingapp.Step.Step;
-import com.lundih.android.bakingapp.Step.StepAdapter;
+import com.lundih.android.bakingapp.ingredient.Ingredient;
+import com.lundih.android.bakingapp.recipe.Recipe;
+import com.lundih.android.bakingapp.step.Step;
+import com.lundih.android.bakingapp.step.StepAdapter;
 
 import java.util.List;
 import java.util.Objects;

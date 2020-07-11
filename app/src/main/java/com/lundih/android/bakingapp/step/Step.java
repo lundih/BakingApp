@@ -1,4 +1,4 @@
-package com.lundih.android.bakingapp.Step;
+package com.lundih.android.bakingapp.step;
 
 import android.os.Parcel;
 import android.os.Parcelable;

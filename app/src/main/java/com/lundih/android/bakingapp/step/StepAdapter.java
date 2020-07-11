@@ -1,4 +1,4 @@
-package com.lundih.android.bakingapp.Step;
+package com.lundih.android.bakingapp.step;
 
 import android.content.Context;
 import android.content.res.Resources;

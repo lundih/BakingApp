@@ -1,4 +1,4 @@
-package com.lundih.android.bakingapp.Ingredient;
+package com.lundih.android.bakingapp.ingredient;
 
 import android.os.Parcel;
 import android.os.Parcelable;

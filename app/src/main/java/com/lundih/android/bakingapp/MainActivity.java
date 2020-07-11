@@ -21,11 +21,11 @@ import android.widget.TextView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.lundih.android.bakingapp.Utils.ColumnCalc;
-import com.lundih.android.bakingapp.Utils.InternetCheck;
-import com.lundih.android.bakingapp.Utils.RecipeAPI;
-import com.lundih.android.bakingapp.Recipe.Recipe;
-import com.lundih.android.bakingapp.Recipe.RecipeAdapter;
+import com.lundih.android.bakingapp.utils.ColumnCalc;
+import com.lundih.android.bakingapp.utils.InternetCheck;
+import com.lundih.android.bakingapp.utils.RecipeAPI;
+import com.lundih.android.bakingapp.recipe.Recipe;
+import com.lundih.android.bakingapp.recipe.RecipeAdapter;
 
 import java.util.List;
 

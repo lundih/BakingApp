@@ -1,6 +1,6 @@
-package com.lundih.android.bakingapp.Utils;
+package com.lundih.android.bakingapp.utils;
 
-import com.lundih.android.bakingapp.Recipe.Recipe;
+import com.lundih.android.bakingapp.recipe.Recipe;
 
 import java.util.List;
 

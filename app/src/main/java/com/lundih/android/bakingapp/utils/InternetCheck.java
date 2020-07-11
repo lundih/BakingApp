@@ -1,4 +1,4 @@
-package com.lundih.android.bakingapp.Utils;
+package com.lundih.android.bakingapp.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

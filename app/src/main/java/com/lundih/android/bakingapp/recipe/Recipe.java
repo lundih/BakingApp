@@ -1,11 +1,11 @@
-package com.lundih.android.bakingapp.Recipe;
+package com.lundih.android.bakingapp.recipe;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.google.gson.annotations.SerializedName;
-import com.lundih.android.bakingapp.Ingredient.Ingredient;
-import com.lundih.android.bakingapp.Step.Step;
+import com.lundih.android.bakingapp.ingredient.Ingredient;
+import com.lundih.android.bakingapp.step.Step;
 
 import java.util.ArrayList;
 import java.util.List;

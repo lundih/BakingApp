@@ -4,7 +4,7 @@ import androidx.test.espresso.matcher.ViewMatchers;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.rule.ActivityTestRule;
 
-import com.lundih.android.bakingapp.Utils.InternetCheck;
+import com.lundih.android.bakingapp.utils.InternetCheck;
 
 import org.junit.Rule;
 import org.junit.Test;

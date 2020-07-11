@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 
-import com.lundih.android.bakingapp.Recipe.Recipe;
+import com.lundih.android.bakingapp.recipe.Recipe;
 
 import java.util.Objects;
 

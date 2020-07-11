@@ -1,4 +1,4 @@
-package com.lundih.android.bakingapp.Recipe;
+package com.lundih.android.bakingapp.recipe;
 
 import android.content.Context;
 import android.content.Intent;

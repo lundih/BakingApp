@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
 
-import com.lundih.android.bakingapp.Recipe.Recipe;
+import com.lundih.android.bakingapp.recipe.Recipe;
 
 import java.util.List;
 
