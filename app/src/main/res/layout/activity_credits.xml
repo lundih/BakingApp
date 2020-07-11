@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CreditsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image_full_placeholder"
+            android:contentDescription="@string/content_description_placeholder_image"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/textViewCredits1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="16dp"
+            style="@style/text_custom_normal"
+            android:background="@drawable/shape_instructions_bg"
+            android:text="@string/credit_placeholder"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image_full_placeholder2"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/content_description_placeholder_image"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/textViewCredits2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="16dp"
+            style="@style/text_custom_normal"
+            android:background="@drawable/shape_instructions_bg"
+            android:text="@string/credit_placeholder2"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_description_placeholder_image"
+            android:scaleType="fitStart"
+            android:src="@drawable/image_full_placeholder3" />
+
+        <TextView
+            android:id="@+id/textViewCredits3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="16dp"
+            style="@style/text_custom_normal"
+            android:background="@drawable/shape_instructions_bg"
+            android:text="@string/credit_place_holder3"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

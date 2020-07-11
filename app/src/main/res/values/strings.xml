@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="app_name_full" translatable="false">com.lundih.android.bakingapp</string>
+
+    <string name="button_previous">Previous</string>
+    <string name="button_next">Next</string>
+    <string name="text_view_ingredients_label"><u>Ingredients</u></string>
+    <string name="text_view_ingredients_servings_label">Serves&#160;</string>
+    <string name="text_view_step_item_index_label">Step</string>
+    <string name="menu_item_title_credits">Credits</string>
+
+    <string name="content_description_image_view_recipe_item_image">recipe</string>
+    <string name="content_description_image_view_step_item_image">recipe step thumbnail</string>
+    <string name="content_description_fab_refresh">refresh recipes</string>
+    <string name="content_description_placeholder_image">placeholder image from unsplash</string>
+
+    <string name="credits_title">Image Attributions</string>
+    <string name="credit_placeholder" translatable="false"><span>Photo by <a href="https://unsplash.com/@hue12_photography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">hue12 photography</a> on <a href="https://unsplash.com/s/photos/kitchen-utensils?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></string>
+    <string name="credit_placeholder2" translatable="false"><span>Photo by <a href="https://unsplash.com/@beccatapert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Becca Tapert</a> on <a href="https://unsplash.com/s/photos/kitchen-appliances?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></string>
+    <string name="credit_place_holder3" translatable="false"><span>Photo by <a href="https://unsplash.com/@cassianobarletta?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Cassiano Barletta</a> on <a href="https://unsplash.com/s/photos/kitchen-apron?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></string>
+
+    <string name="intent_key_recipe" translatable="false">recipe</string>
+    <string name="shared_preferences_key_position" translatable="false">position</string>
+    <string name="action_appwidget_button_previous_click" translatable="false">appwidgetButtonPreviousClick</string>
+    <string name="action_appwidget_button_next_click" translatable="false">appwidgetButtonNextClick</string>
+    <string name="action_appwidget_button_refresh_click" translatable="false">appwidgetButtonRefreshClick</string>
+
+    <string name="url_base" translatable="false">https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/</string>
+
+    <string name="fragment_tag_steps" translatable="false">steps_fragment</string>
+    <string name="fragment_tag_instructions" translatable="false">instructions_fragment</string>
+    <string name="fragment_back_stack_name_instructions" translatable="false">instructions_frag</string>
+
+    <string name="missing_text_placeholder">[Missing]</string>
+    <string name="message_get_network_resource_failure">An error was encountered while fetching recipes</string>
+    <string name="message_get_network_resource_failure_widget">An error was encountered while fetching ingredients. Please try again</string>
+    <string name="message_get_network_resource_unsuccessful">I got something, but they do not look like recipes to me. Please try again</string>
+    <string name="message_get_network_resource_unsuccessful_widget">Failed to get ingredients. Not to worry though, your internet is fine. Please try again</string>
+    <string name="message_no_internet">There is this thing called the internet&#8230; I kinda need it :)</string>
+    <string name="message_error_playing_video">An error was encountered while trying to play the video</string>
+    <string name="message_no_video_found">No video was found for this recipe</string>
+
+    <string name="new_line">\n</string>
+    <string name="white_space">&#160;</string>
+    <string name="period">.</string>
+    <string name="colon">:</string>
+    <string name="forward_slash">/</string>
+    <string name="opening_brace">(</string>
+    <string name="closing_brace">)</string>
+</resources>

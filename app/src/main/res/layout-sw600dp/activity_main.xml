@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollViewMainActivityTabMode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBarLoadingRecipes"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:indeterminateTint="@color/colorAccent"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textViewNetworkResourceRequestMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text_custom_normal"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:textColor="@color/textLight"
+        android:background="@color/colorAccent"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabRefreshRecipes"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="32dp"
+        android:src="@drawable/ic_refresh"
+        android:contentDescription="@string/content_description_fab_refresh"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

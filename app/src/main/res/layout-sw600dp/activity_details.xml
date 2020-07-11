@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutTabMode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    android:orientation="horizontal">
+    
+    <FrameLayout
+        android:id="@+id/frameLayoutFragmentStepsContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".4"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:background="@color/colorPrimary"/>
+    
+    <FrameLayout
+        android:id="@+id/frameLayoutFragmentInstructionsContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".6" />
+
+</LinearLayout>

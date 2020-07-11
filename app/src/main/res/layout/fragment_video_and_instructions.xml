@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
+    android:clickable="true"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Purely for aesthetics-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/shape_video_lid_tip"/>
+
+            <!--Purely for aesthetics-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/shape_video_lid"/>
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/exoPlayerPlayerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:resize_mode="fixed_width"
+                android:layout_marginHorizontal="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewStepDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginBottom="80dp"
+                android:paddingVertical="16dp"
+                android:paddingHorizontal="8dp"
+                style="@style/text_custom_normal"
+                android:background="@drawable/shape_instructions_bg"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutNavigationButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="4dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <Button
+            android:id="@+id/buttonPreviousStep"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_weight=".5"
+            android:gravity="left|center_vertical"
+            android:background="@drawable/shape_button_previous_bg"
+            android:textSize="16sp"
+            android:textColor="@color/textLight"
+            android:layout_marginRight="2dp"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="4dp"
+            android:drawableLeft="@drawable/ic_navigate_previous"
+            android:text="@string/button_previous"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/buttonNextStep"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_weight=".5"
+            android:gravity="right|center_vertical"
+            android:background="@drawable/shape_button_next_bg"
+            android:textSize="16sp"
+            android:textColor="@color/textLight"
+            android:layout_marginLeft="2dp"
+            android:paddingHorizontal="16dp"
+            android:drawableRight="@drawable/ic_navigate_next"
+            android:text="@string/button_next"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

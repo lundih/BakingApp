@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_ingredients_bg"
+    android:padding="@dimen/widget_margin">
+
+    <LinearLayout
+        android:id="@+id/appwidgetLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/appwidgetTextViewRecipeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="12dp"
+            style="@style/text_custom_normal"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/appwidgetTextViewIngredientsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            style="@style/text_custom_normal"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/appwidgetTextViewIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:paddingBottom="56dp"
+            style="@style/text_custom_normal"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/appwidgetButtonPrevious"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/shape_video_lid_tip"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_navigate_previous"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/appwidgetButtonNext"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/shape_video_lid_tip"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableRight="@drawable/ic_navigate_next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/appwidgetButtonRefresh"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/shape_video_lid_tip"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableRight="@drawable/ic_refresh"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:ignore="RtlHardcoded" />
+
+    <ProgressBar
+        android:id="@+id/appwidgetProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/colorAccent"
+        android:visibility="gone"/>
+
+</RelativeLayout>
