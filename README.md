@@ -4,7 +4,7 @@ Enjoy baking with some great recipes and also videos to walk you through.<br>
 
 The app has different layouts for mobile devices and tabs. You can also try out the widget to show ingredients on your home screen for when you need them close by. This project is part of the Udacity Android Developer Nanodegree program.<br>
 <p align="left">
-  <img src="img/baking_app.png" width="400"/>
+  <img src="img/baking_app.png" width="700"/>
 </p><br>
 
 ## Project Overview
