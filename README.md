@@ -3,6 +3,9 @@
 Enjoy baking with some great recipes and also videos to walk you through.<br>
 
 The app has different layouts for mobile devices and tabs. You can also try out the widget to show ingredients on your home screen for when you need them close by. This project is part of the Udacity Android Developer Nanodegree program.<br>
+<p align="left">
+  <img src="img/baking_app.png" width="400"/>
+</p><br>
 
 ## Project Overview
 Productionize an app, taking it from a functional state to a production-ready state. This involves finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.
@@ -18,11 +21,7 @@ In this project you will:<br>
 <li>Add a widget to your app experience.</li>
 <li>Leverage a third-party library in your app.</li>
 <li>Use Fragments to create a responsive design that works on phones and tablets.</li>
-</ul><br>
-# Application screenshots
-<p align="left">
-  <img src="img/baking_app.png" width="440"/>
-</p><br>
+</ul><br><br>
 
 Images used in this project were obtained from <a href='https://unsplash.com/'>Unsplash</a>.<br>
 
